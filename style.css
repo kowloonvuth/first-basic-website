@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Caveat&family=Libre+Baskerville&family=Mulish:wght@200&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f5f0ea;
+}
+
+button {
+  color: white;
+  background-color: brown;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-family: "Cabin", sans-serif;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: brown;
+  transition: 0.3s;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#logo {
+  flex: 1;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav ul {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav ul li {
+  list-style: none;
+}
+
+.header-nav ul li a {
+  font-weight: bold;
+  color: white;
+}
+
+#home-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  align-items: center;
+}
+
+.home-left {
+  width: 50%;
+}
+
+.home-left h2 {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.home-left h3 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  margin-top: 2rem;
+}
+
+.home-left p {
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.home-left button {
+  color: white;
+  background-color: brown;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-family: "Cabin", sans-serif;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.home-left button:hover {
+  background-color: white;
+  color: brown;
+  transition: 0.3s;
+}
+
+.home-right img {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 1rem;
+}
+
+/* Body styling */
+
+.body-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.body-nav ul {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-nav ul li {
+  list-style: none;
+}
+
+.body-nav ul li a {
+  font-weight: bold;
+  color: white;
+}
+
+#body-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.body-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  align-items: center;
+}
+
+.body-left {
+  width: 50%;
+}
+
+.body-left h2 {
+  color: brown;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+}
+
+.body-left h3 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  margin-top: 2rem;
+}
+
+.body-left p {
+  color: grey;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.body-left button {
+  color: white;
+  background-color: brown;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-family: "Cabin", sans-serif;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.body-left button:hover {
+  background-color: white;
+  color: brown;
+  transition: 0.3s;
+}
+
+.body-right img {
+  height: 35rem;
+  width: 45rem;
+  border-radius: 1rem;
+}
+
+#title-section {
+  color: brown;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#sub-title-section {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.sermons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-sermons {
+  width: 30%;
+  height: 30rem;
+}
+
+.card-sermons img {
+  width: 35rem;
+  height: 22rem;
+  border-radius: 0.5rem;
+}
+
+.card-sermons p {
+  color: grey;
+  letter-spacing: 2px;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-sermons h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
+.card-sermons button {
+  color: white;
+  background-color: brown;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  font-family: "Cabin", sans-serif;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.card-sermons button:hover {
+  background-color: white;
+  color: brown;
+  transition: 0.3s;
+}
+
+#background-color {
+  background-color: #2f4f4f;
+  padding: 6rem 6rem;
+  margin-top: 20rem;
+  height: 100vh;
+}
+
+.why-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-us img {
+  width: 50rem;
+  height: 35rem;
+  margin-top: 3rem;
+}
+
+.why-left {
+  width: 50%;
+}
+
+.why-left h2 {
+  color: brown;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+}
+
+.why-left h3 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  margin-top: 2rem;
+}
+
+.why-right {
+  width: 35%;
+}
+
+.why-right p {
+  color: white;
+  font-size: 2rem;
+  font-weight: light;
+}
+
+.right-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.right-flex h2 {
+  color: white;
+}
+
+.right-flex h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.text-card {
+  margin-top: 4rem;
+}
+
+#why-button {
+  margin-top: 10rem;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.church {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  height: 90vh;
+  padding: 0rem 6rem;
+}
+
+.church h3 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.church h2 {
+  color: brown;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.card-church {
+  width: 20%;
+  height: 30rem;
+  text-align: center;
+}
+
+.card-church img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+
+.card-church p {
+  color: grey;
+  letter-spacing: 2px;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-church h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
+.church-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.background-color {
+  background-color: #5f9ea0;
+  margin-top: -3rem;
+  z-index: -1;
+  height: 75vh;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40vh;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 4rem;
+  font-family: "Cabin", sans-serif;
+}
+
+#church-space {
+  height: 20rem;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
